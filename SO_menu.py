@@ -13,13 +13,13 @@ while True:
                 os.system('cls')
                 break
         elif menu == 2:
-
+            os.system('cls')
             diretorio = input("Digite o caminho completo de um diretório:")
 
             try:
                 os.system('cls')
                 arquivos = os.listdir(diretorio)
-                print(f"\nArquivos encontratos em {diretorio}:")
+                print(f"\nArquivos encontrados em {diretorio}:")
                 for arquivo in arquivos:
                     print(arquivos)
                 voltar = int(input("\n\n1. Voltar ao menu\n"))
@@ -32,7 +32,7 @@ while True:
                 print("Você não tem permissão para acessar este diretório.")
 
         elif menu == 3:
-
+            os.system('cls')
             programa = input("Digite o nome do programa consoante extensão do programa\n(ex.: notepad.txt)\n")
 
             try:             
